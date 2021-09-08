@@ -6,43 +6,118 @@
   <title>에어비앤비: 휴가용 임대 숙소, 통나무집, 비치 하우스, 독특한 숙소 및 체험</title>
 </head>
 <body>
-  <header class="header">
-    <div class="header__logo">airbnb</div>
-    <ul class="header__list">
-      <li>숙소</li>
-      <li>체험</li>
-      <li><a href="#">온라인 체험</a></li>
-    </ul>
-    <div class="header__user">
-      <a href="#">호스트 되기</a>
-      <!-- 지구 모양 이모티콘 -->
-      <div class="header__user__login">
-        <!-- 줄 세개 이모티콘 -->
-        <!-- user 이모티콘 -->
+  <div class="top">
+    <header class="top-header">
+      <h1 class="top-header__logo"><i class="fab fa-airbnb fa-lg"></i>airbnb</h1>
+      <ul class="top-header__list">
+        <li>숙소</li>
+        <li>체험</li>
+        <li><a href="#">온라인 체험</a></li>
+      </ul>
+      <div class="top-header__user">
+        <a href="#">호스트 되기</a>
+        <i class="fas fa-globe"></i>
+        <div class="top-header__user__login">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-user-circle"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="top-search">
+      <div class="top-search__bar">
+        <label for="where"><h3>위치</h3></label>
+        <input type="text" placeholder="어디로 여행가세요?" name="where">
+      </div>
+      <div class="top-search__bar">
+        <h3>체크인</h3>
+        <span>날짜 입력</span>
+      </div>
+      <div class="top-search__bar">
+        <h3>체크아웃</h3>
+        <span>날짜 입력</span>
+      </div>
+      <div class="top-search__bar">
+        <h3>인원</h3>
+        <span>게스트 추가</span>
+      </div>
+      <div class="top-search__bar">
+        <i class="fas fa-search"></i>
       </div>
     </div>
-  </header>
-
-  <div class="search">
-    <div class="search__column">
-      <label for="where"><h3>위치</h3></label>
-      <input type="text" placeholder="어디로 여행가세요?" name="where">
-    </div>
-    <div class="search__column">
-      <h3>체크인</h3>
-      <span>날짜 입력</span>
-    </div>
-    <div class="search__column">
-      <h3>체크아웃</h3>
-      <span>날짜 입력</span>
-    </div>
-    <div class="search__column">
-      <h3>인원</h3>
-      <span>게스트 추가</span>
-    </div>
-    <div class="search__column">
-      <!-- 돋보기 이모티콘 -->
-    </div>
+      <div class="top-center">
+        <span class="top-center__text">
+          어디든 상관없이 떠나고 싶을 때 에어비앤비가 도와드립니다!
+        </span>
+        <a href="#" class="top-center__box">유연한 검색
+        </a>
+      </div>
   </div>
+
+  <main class="main"> <!-- 전체가 다 링크 -->
+    <div class="main-near">
+      <h2>가까운 여행지 둘러보기</h2>
+      <div class="main-near__content"></div> 
+    </div>
+    <div class="main-where">
+      <h2>어디에서나, 여행은 살아보는 거야!</h2>
+      <div class="main-where__content"></div>
+    </div>
+    <div class="main-hosting">
+      <h2>호스팅 시작하기</h2>
+      <span>숙소를 공유하여 부수입을 올리고 새로운 가능성을 만나보세요.</span>
+      <div><a href="">자세히 알아보기</a></div>
+      <div class="main-hosting__content"></div>
+    </div>
+    <div class="main-experience">
+      <h2>특별한 즐길 거리를 찾아보세요</h2>
+      <div class="main-experience__content"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-category">
+      <div>
+        <ul>
+          <li>소개</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>커뮤니티</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>호스팅하기</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>에어비앤비 지원</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-info">
+      <div>
+        <span>© 2021 Airbnb, Inc.</span>
+        <ul>
+          <li>개인정보 처리방침</li>
+          <li>이용약관</li>
+          <li>사이트맵</li>
+          <li>한국의 변경된 환불 정책</li>
+          <li>회사 세부정보</li>
+        </ul>
+      </div>
+      <div>
+        <span>한국어</span>
+        <span>krw</span> <!-- 대문자 만들기 -->
+        <!-- SNS 이모티콘 5개 -->
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/6478f529f2.js"
+  crossorigin="anonymous"
+  ></script>
 </body>
 </html>
